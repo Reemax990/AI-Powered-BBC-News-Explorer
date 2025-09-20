@@ -1,5 +1,4 @@
 # AI-Powered-BBC-News-Explorer
-Explore BBC News with AI — this project integrates semantic search (BERT embeddings), automatic summarization (BART), and text classification (Logistic Regression) into a smart Streamlit interface.
 An interactive AI web app built with Streamlit that enables:
 * **Semantic Search:** Find the most relevant BBC news articles to your query (supports Arabic & English).
 * **Auto Classification:** Classify new articles into categories (trained on BBC dataset with Logistic Regression).
