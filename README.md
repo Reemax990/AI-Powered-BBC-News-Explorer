@@ -59,12 +59,17 @@ An interactive AI web app built with Streamlit that enables:
  2. Enhance Arabic summarization with multilingual models.
  3. Deploy on HuggingFace Spaces or Streamlit Cloud for public demo.
   ## Screenshots
- * Main UI of the application.
 
    ### 🖥️ Web App Interface
 * ![Interface](images/UI1.PNG)
+
+#### Semantic Search
 *   ![Interface](images/search.PNG)
+
+  #### Summarization
 *    ![Interface](images/summary.PNG)
+
+#### Classification
 *    ![Interface](images/classify.PNG)
 
 
