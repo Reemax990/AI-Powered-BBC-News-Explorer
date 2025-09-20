@@ -6,7 +6,7 @@ An interactive AI web app built with Streamlit that enables:
 * **Summarization:** Generate concise summaries of long news articles.
 * **Translation Layer:** Added deep-translator so that Arabic inputs are automatically translated before classification by Logistic Regression.
 
-
+## Project Structure
 ### AI-Powered BBC News Explorer/
 * app.py                     # Streamlit app (main interface)
 *  requirements.txt           # Dependencies to install
