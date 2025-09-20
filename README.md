@@ -39,9 +39,11 @@ An interactive AI web app built with Streamlit that enables:
 
 ## Example Queries
 1. Arabic:
-
-   *"من فاز في مباراة كرة القدم الأخيرة؟" → gets translated → classified as Spo
-*"أسعار النفط وتأثيرها على الاقتصاد" → classified as Business
+  
+  
+  "من فاز في مباراة كرة القدم الأخيرة؟" → gets translated → classified as Spo
+  * 
+"أسعار النفط وتأثيرها على الاقتصاد" → classified as Business
 2. English:
 * "Prime minister announced new education policies" → classified as Politics
 * "Stock market faced a huge drop due to oil prices" → classified as Business
