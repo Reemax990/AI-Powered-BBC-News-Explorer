@@ -33,11 +33,7 @@ An interactive AI web app built with Streamlit that enables:
    git clone https://github.com/<your-username>/AI-Powered-BBC-News-Explorer.git
    cd AI-Powered-BBC-News-Explorer ```
 2. **Create virtual environment (recommended):**
-```
-python -m venv .venv
-.venv\Scripts\activate   # On Windows
-source .venv/bin/activate  # On Mac/Linux
-```
+```python -m venv .venv .venv\Scripts\activate   # On Windows source .venv/bin/activate  # On Mac/Linux```
 3. **Install requirements:**
 ```pip install -r requirements.txt```
 4. **Run the app:**
