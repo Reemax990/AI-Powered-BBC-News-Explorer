@@ -69,5 +69,5 @@ An interactive AI web app built with Streamlit that enables:
 
 
   ### 📊 Model Accuracy (Logistic Regression)
-* ![Accuracy](images/LR.PNG)
+* ![Accuracy](images/LR.png)
 
