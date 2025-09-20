@@ -39,27 +39,27 @@ An interactive AI web app built with Streamlit that enables:
 
 ## Example Queries
 1. Arabic:
-"من فاز في مباراة كرة القدم الأخيرة؟" → gets translated → classified as Spo
-"أسعار النفط وتأثيرها على الاقتصاد" → classified as Business
 
+   *"من فاز في مباراة كرة القدم الأخيرة؟" → gets translated → classified as Spo
+*"أسعار النفط وتأثيرها على الاقتصاد" → classified as Business
 2. English:
-"Prime minister announced new education policies" → classified as Politics
-"Stock market faced a huge drop due to oil prices" → classified as Business
+* "Prime minister announced new education policies" → classified as Politics
+* "Stock market faced a huge drop due to oil prices" → classified as Business
 
 ## Results
-Logistic Regression achieved ~97% accuracy on the test split.
-Confusion matrix & classification report are included in the notebook (notebook/bbc_nlp_pipeline.ipynb).
-Summarization reduces long articles into 3–4 sentences for quick reading.
+* Logistic Regression achieved ~97% accuracy on the test split.
+* Confusion matrix & classification report are included in the notebook (notebook/bbc_nlp_pipeline.ipynb).
+* Summarization reduces long articles into 3–4 sentences for quick reading.
 
 ## Features Roadmap
-  Add video/audio content support via speech-to-text (future).
-  Enhance Arabic summarization with multilingual models.
-  Deploy on HuggingFace Spaces or Streamlit Cloud for public demo.
+ 1. Add video/audio content support via speech-to-text (future).
+ 2. Enhance Arabic summarization with multilingual models.
+ 3. Deploy on HuggingFace Spaces or Streamlit Cloud for public demo.
   ## Screenshots
-  Main UI of the application.
+ * Main UI of the application.
 
   
   
-Classification result example.
+* Classification result example.
 
 
