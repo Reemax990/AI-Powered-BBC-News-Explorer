@@ -22,22 +22,24 @@ AI-Powered BBC News Explorer/
     └── classification_result.png
 
    ## Models & Components
--**Sentence-BERT (MiniLM-L12-v2)** → used for semantic search (supports multilingual queries).
--**Summarizer (BART-large-cnn)** → used for generating summaries (English).
--**Logistic Regression Classifier** → trained on BBC News dataset (English-only categories).
--**TF-IDF Vectorizer** → converts cleaned text into numerical features.
--**Deep Translator** → supports Arabic input by auto-translating before classification.
+* **Sentence-BERT (MiniLM-L12-v2)** → used for semantic search (supports multilingual queries).  
+* **Summarizer (BART-large-cnn)** → used for generating summaries (English).  
+* **Logistic Regression Classifier** → trained on BBC News dataset (English-only categories).  
+* **TF-IDF Vectorizer** → converts cleaned text into numerical features.  
+* **Deep Translator** → supports Arabic input by auto-translating before classification.  
+
  
  ## How to Run Locally
- 1. Clone repo:
-```git clone https://github.com/<your-username>/AI-Powered-BBC-News-Explorer.git cd AI-Powered-BBC-News-Explorer ```
-2. Create virtual environment (recommended):
-```
+1. **Clone repository:**
+   ```bash
+   git clone https://github.com/<your-username>/AI-Powered-BBC-News-Explorer.git
+   cd AI-Powered-BBC-News-Explorer
+
 python -m venv .venv
 .venv\Scripts\activate   # On Windows
 source .venv/bin/activate  # On Mac/Linux
 ```
-3. Install requirements:
+2. **Install requirements:**
 ```pip install -r requirements.txt```
 4. Run the app:
 ```streamlit run app.py```
