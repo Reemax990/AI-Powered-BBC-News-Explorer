@@ -63,9 +63,10 @@ An interactive AI web app built with Streamlit that enables:
 
    ### 🖥️ Web App Interface
 * ![Interface](images/UI1.PNG)
-*  ![Interface](images/classify.PNG)
 *   ![Interface](images/search.PNG)
 *    ![Interface](images/summary.PNG)
+*    ![Interface](images/classify.PNG)
+
 
   ### 📊 Model Accuracy (Logistic Regression)
 * ![Accuracy](images/LR.PNG)
