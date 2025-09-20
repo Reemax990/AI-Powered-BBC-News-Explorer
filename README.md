@@ -22,18 +22,18 @@ AI-Powered BBC News Explorer/
     └── classification_result.png
 
    ## Models & Components
--**Sentence-BERT (MiniLM-L12-v2) ** → used for semantic search (supports multilingual queries).
-     * Summarizer (BART-large-cnn) → used for generating summaries (English).
-     * Logistic Regression Classifier → trained on BBC News dataset (English-only categories).
-     * TF-IDF Vectorizer → converts cleaned text into numerical features.
-     * Deep Translator → supports Arabic input by auto-translating before classification.
+-**Sentence-BERT (MiniLM-L12-v2)** → used for semantic search (supports multilingual queries).
+-**Summarizer (BART-large-cnn)** → used for generating summaries (English).
+-**Logistic Regression Classifier** → trained on BBC News dataset (English-only categories).
+-**TF-IDF Vectorizer** → converts cleaned text into numerical features.
+-**Deep Translator** → supports Arabic input by auto-translating before classification.
  
  ## How to Run Locally
  1. Clone repo:
-```git clone https://github.com/<your-username>/AI-Powered-BBC-News-Explorer.git
-cd AI-Powered-BBC-News-Explorer ```
+```git clone https://github.com/<your-username>/AI-Powered-BBC-News-Explorer.git cd AI-Powered-BBC-News-Explorer ```
 2. Create virtual environment (recommended):
-``python -m venv .venv
+```
+python -m venv .venv
 .venv\Scripts\activate   # On Windows
 source .venv/bin/activate  # On Mac/Linux
 ```
