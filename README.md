@@ -22,7 +22,7 @@ AI-Powered BBC News Explorer/
     └── classification_result.png
 
    ## Models & Components
-     * Sentence-BERT (MiniLM-L12-v2) → used for semantic search (supports multilingual queries).
+-**Sentence-BERT (MiniLM-L12-v2) ** → used for semantic search (supports multilingual queries).
      * Summarizer (BART-large-cnn) → used for generating summaries (English).
      * Logistic Regression Classifier → trained on BBC News dataset (English-only categories).
      * TF-IDF Vectorizer → converts cleaned text into numerical features.
