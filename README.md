@@ -16,14 +16,6 @@ Each article has:
   - `sport`
   - `tech`
 
-📝 Example:
-- Title: *"Oil prices drop amid global uncertainty"*  
-- Content: (full BBC article text…)  
-- Category: `business`
-
-👉 The system learns from these categories and uses them to classify new unseen articles.
-
----
 ---
 
 ## 🔎 Intelligent Search (Semantic Search)
