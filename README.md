@@ -107,16 +107,22 @@ It uses a **TF-IDF Vectorizer** + **Logistic Regression** trained on the BBC dat
 
 **Arabic (translated automatically):**
 <p align="left">
-  - "من فاز في مباراة كرة القدم الأخيرة؟" → classified as sport  
-  - "أسعار النفط وتأثيرها على الاقتصاد" → classified as business 
+- "من فاز في مباراة كرة القدم الأخيرة؟"  
+  → classified as **sport**  
+
+- "أسعار النفط وتأثيرها على الاقتصاد"  
+  → classified as **business** 
 
 
 
 </p>
 
 **English:**
-- "Prime minister announced new education policies" → classified as **politics**
-- "Stock market faced a huge drop due to oil prices" → classified as **business**
+- "Prime minister announced new education policies"  
+  → classified as **politics**
+
+- "Stock market faced a huge drop due to oil prices"  
+  → classified as **business**
 
 ---
 ## Results
