@@ -4,7 +4,26 @@ An interactive AI web app built with Streamlit that enables:
 * **Auto Classification:** Classify new articles into categories (trained on BBC dataset with Logistic Regression).
 * **Summarization:** Generate concise summaries of long news articles.
 * **Translation Layer:** Added deep-translator so that Arabic inputs are automatically translated before classification by Logistic Regression.
+## 📂 Dataset Overview
+This project is built on the **BBC News Dataset**, which contains hundreds of news articles from the BBC.  
+Each article has:
+- **Title** → short headline of the article.  
+- **Content** → full news text.  
+- **Category** → one of the 5 main classes:
+  - `business`
+  - `entertainment`
+  - `politics`
+  - `sport`
+  - `tech`
 
+📝 Example:
+- Title: *"Oil prices drop amid global uncertainty"*  
+- Content: (full BBC article text…)  
+- Category: `business`
+
+👉 The system learns from these categories and uses them to classify new unseen articles.
+
+---
 ## Project Structure
 ### AI-Powered BBC News Explorer
 * app.py                     # Streamlit app (main interface)
@@ -30,7 +49,8 @@ An interactive AI web app built with Streamlit that enables:
 1. **Clone repository:**
    ```bash git clone https://github.com/<your-username>/AI-Powered-BBC-News-Explorer.git cd AI-Powered-BBC-News-Explorer```
 2. **Create virtual environment (recommended):**
-```python -m venv .venv .venv\Scripts\activate   # On Windows source .venv/bin/activate  # On Mac/Linux```
+```python -m venv .venv .venv\Scripts\activate   # On Windows```
+ ```source .venv/bin/activate  # On Mac/Linux```
 4. **Install requirements:**
 ```pip install -r requirements.txt```
 5. **Run the app:**
@@ -40,7 +60,7 @@ An interactive AI web app built with Streamlit that enables:
 1. Arabic:
   
   
-  "من فاز في مباراة كرة القدم الأخيرة؟" → gets translated → classified as Spo
+  "من فاز في مباراة كرة القدم الأخيرة؟" → gets translated → classified as Sport
 "أسعار النفط وتأثيرها على الاقتصاد" → classified as Business
 
 
