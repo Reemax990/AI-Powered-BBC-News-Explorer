@@ -6,15 +6,15 @@ An interactive AI web app built with Streamlit that enables:
 * **Translation Layer:** Added deep-translator so that Arabic inputs are automatically translated before classification by Logistic Regression.
 
 ## Project Structure
-### AI-Powered BBC News Explorer/
+### AI-Powered BBC News Explorer
 * app.py                     # Streamlit app (main interface)
 *  requirements.txt           # Dependencies to install
 *  bbc-news-data.csv          # Dataset (BBC News, cleaned)
 *   classifier_model.pkl       # Trained Logistic Regression model
 *   tfidf_vectorizer.pkl       # TF-IDF vectorizer used with model
-  ###   notebook/                  # Colab notebook used for training
+  ###   notebook
 *    bbc_nlp_pipeline.ipynb
-### images/                    # Screenshots for demo
+### images                  
 * ui_home.png
 *  classification_result.png
 
