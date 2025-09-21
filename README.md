@@ -47,7 +47,7 @@ The system uses a **BART-large-cnn model** to generate **short summaries**:
 ---
 
 ## 📝 Auto Classification
-In addition to search and summaries, the system can **automatically classify new articles**.  
+the system can **automatically classify new articles**.  
 It uses a **TF-IDF Vectorizer** + **Logistic Regression** trained on the BBC dataset.  
 
 - Categories available:
