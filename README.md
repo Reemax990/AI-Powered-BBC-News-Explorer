@@ -106,7 +106,7 @@ It uses a **TF-IDF Vectorizer** + **Logistic Regression** trained on the BBC dat
 ## 🔍 Example Queries
 
 **Arabic (translated automatically):**
-<p align="right">
+<p align="left">
 • "من فاز في مباراة كرة القدم الأخيرة؟" → classified as **sport**  
 • "أسعار النفط وتأثيرها على الاقتصاد" → classified as **business**  
 </p>
