@@ -4,6 +4,8 @@ An interactive AI web app built with Streamlit that enables:
 * **Auto Classification:** Classify new articles into categories (trained on BBC dataset with Logistic Regression).
 * **Summarization:** Generate concise summaries of long news articles.
 * **Translation Layer:** Added deep-translator so that Arabic inputs are automatically translated before classification by Logistic Regression.
+---
+
 ## 📂 Dataset Overview
 This project is built on the **BBC News Dataset**, which contains hundreds of news articles from the BBC.  
 Each article has:
@@ -44,7 +46,6 @@ The system uses a **BART-large-cnn model** to generate **short summaries**:
 - Generated summary: *"The government announced new climate initiatives focusing on renewable energy and emission cuts."*
 
 ---
----
 
 ## 📝 Auto Classification
 the system can **automatically classify new articles**.  
@@ -81,14 +82,14 @@ It uses a **TF-IDF Vectorizer** + **Logistic Regression** trained on the BBC dat
 ### images                  
 * ui_home.png
 *  classification_result.png
-
+---
    ## Models & Components
 * **Sentence-BERT (MiniLM-L12-v2)** → used for semantic search (supports multilingual queries).  
 * **Summarizer (BART-large-cnn)** → used for generating summaries (English).  
 * **Logistic Regression Classifier** → trained on BBC News dataset (English-only categories).  
 * **TF-IDF Vectorizer** → converts cleaned text into numerical features.  
 * **Deep Translator** → supports Arabic input by auto-translating before classification.  
-
+---
  
  ## How to Run Locally
 1. **Clone repository:**
@@ -100,7 +101,7 @@ It uses a **TF-IDF Vectorizer** + **Logistic Regression** trained on the BBC dat
 ```pip install -r requirements.txt```
 5. **Run the app:**
 ```streamlit run app.py```
-
+---
 ## Example Queries
 1. Arabic:
   
@@ -112,16 +113,18 @@ It uses a **TF-IDF Vectorizer** + **Logistic Regression** trained on the BBC dat
 2.  English:
 * "Prime minister announced new education policies" → classified as Politics
 * "Stock market faced a huge drop due to oil prices" → classified as Business
-
+---
 ## Results
 * Logistic Regression achieved ~97% accuracy on the test split.
 * Confusion matrix & classification report are included in the notebook (notebook/bbc_nlp_pipeline.ipynb).
 * Summarization reduces long articles into 3–4 sentences for quick reading.
-
+---
 ## Features Roadmap
  1. Add video/audio content support via speech-to-text (future).
  2. Enhance Arabic summarization with multilingual models.
  3. Deploy on HuggingFace Spaces or Streamlit Cloud for public demo.
+
+    ---
   ## Screenshots
 
    ### 🖥️ Web App Interface
