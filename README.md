@@ -24,6 +24,59 @@ Each article has:
 👉 The system learns from these categories and uses them to classify new unseen articles.
 
 ---
+---
+
+## 🔎 Intelligent Search (Semantic Search)
+Traditional keyword search only matches exact words.  
+This system uses **Sentence-BERT embeddings** to enable **semantic search**:
+- You can ask a question in **English or Arabic**.
+- The model converts your query into a vector (semantic meaning).
+- It compares your query with all article vectors.
+- Returns the **most relevant news articles**, even if the wording is different.
+
+📝 Example:
+- Query: *"منظمة الصحة العالمية تحذر من وباء"*  
+- The system retrieves articles about *"WHO warns of global pandemic"* → even though the words differ.
+
+---
+
+## ✂️ Summarization
+News articles can be very long.  
+The system uses a **BART-large-cnn model** to generate **short summaries**:
+- Summarization is done in **English** (as dataset is in English).
+- Helps readers get the **main idea in 3–4 sentences**.
+- Useful for scanning large reports quickly.
+
+📝 Example:
+- Original article: ~1000 words on *"climate change policies"*.  
+- Generated summary: *"The government announced new climate initiatives focusing on renewable energy and emission cuts."*
+
+---
+---
+
+## 📝 Auto Classification
+In addition to search and summaries, the system can **automatically classify new articles**.  
+It uses a **TF-IDF Vectorizer** + **Logistic Regression** trained on the BBC dataset.  
+
+- Categories available:
+  - `business`
+  - `entertainment`
+  - `politics`
+  - `sport`
+  - `tech`
+
+- Works mainly with **English articles**, but with the added **translation layer**, Arabic text is auto-translated before classification.  
+
+📝 Example:
+- Input: *"The football team won the championship yesterday."*  
+- Prediction: `sport`  
+
+- Input: *"أعلنت الحكومة عن سياسات تعليمية جديدة"*  
+- Translated → *"The government announced new education policies"*  
+- Prediction: `politics`
+
+---
+
 ## Project Structure
 ### AI-Powered BBC News Explorer
 * app.py                     # Streamlit app (main interface)
