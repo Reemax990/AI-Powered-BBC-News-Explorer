@@ -102,17 +102,19 @@ It uses a **TF-IDF Vectorizer** + **Logistic Regression** trained on the BBC dat
 5. **Run the app:**
 ```streamlit run app.py```
 ---
-## Example Queries
-1. Arabic:
-  
-  
-  "من فاز في مباراة كرة القدم الأخيرة؟" → gets translated → classified as Sport
-"أسعار النفط وتأثيرها على الاقتصاد" → classified as Business
 
+## 🔍 Example Queries
 
-2.  English:
-* "Prime minister announced new education policies" → classified as Politics
-* "Stock market faced a huge drop due to oil prices" → classified as Business
+**Arabic (translated automatically):**
+<p align="right">
+• "من فاز في مباراة كرة القدم الأخيرة؟" → classified as **sport**  
+• "أسعار النفط وتأثيرها على الاقتصاد" → classified as **business**  
+</p>
+
+**English:**
+- "Prime minister announced new education policies" → classified as **politics**
+- "Stock market faced a huge drop due to oil prices" → classified as **business**
+
 ---
 ## Results
 * Logistic Regression achieved ~97% accuracy on the test split.
